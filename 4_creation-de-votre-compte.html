@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+    
+		<!--====== Title ======-->
+		<title>BeThe1 | Creation de votre compte</title>
+		
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!--====== Favicon Icon ======-->
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">	
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="index.html" class="logo"><img src="assets/images/company-logo.png" class="company-logo"></a>
+				<nav id="nav">
+					<a href="joboffer.html">Job offer</a>
+					<a href="about.html">About</a>
+					<a href="contact.html">Contact</a>
+					<a href="myspace.html">My Space</a>
+					<a href="fr.html">FR</a>
+					<a href="en.html" style="text-decoration: underline">EN</a>
+				</nav>
+				<a href="#navPanel" class="navPanelToggle"><span class="menu-button" onclick="tooglemenu()"></span></a>
+			</div>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+		</section>
+
+		<!-- wrapper -->
+		<section id="one" class="wrapper">
+			<div class="inner">
+				<div class="form-div" style="">
+					<div class="title">Creation de votre compte</div>
+					<div class="form-content ppa-10 text-center">
+						<span class="content-span col-rr">Aftin de vous faciliter la creation de votre compate, veuillez nous fournir votre CV</span>
+						<div class="upload-btn-wrapper" style="padding: 50px;">
+							<button class="upload-btn">CV Jerome Delacroix.pdf</button>
+							<input type="file" name="myfile" />
+						</div>
+						<span class="content-span fsz-15 text-center">Deposez votre CV et en un clique, nous nous occupons de remplir un maximumde vos information</span>
+						<button class="input-button-form mt-50">Validate</button>	
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="inner">
+				<div class="flex">
+					<div class="copyright">
+						<a href="index.html" class="logo"><img src="assets/images/company-logo.png" class="company-logo"></a>
+					</div>
+					<div class="f_links">
+						<ul class="icons">
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="connexion.html">Connexion</a></li>
+							<li><a><span class="f_copyright">Copiright / BeThe1 2020</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div id="navPanel">
+			<hr><a href="joboffer.html"">Job offer</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+			<a href="myspace.html">My Space</a>
+			<a href="fr.html">FR</a>
+			<a href="en.html" style="text-decoration: underline">EN</a>
+			<button class="close" onclick="menuhideevent()"></button><hr>
+		</div>
+		<script type="text/javascript">
+			function tooglemenu(){
+				var element = document.getElementById("navPanel");
+				element.className += "visible";
+			}
+			function menuhideevent(){
+				var element = document.getElementById("navPanel");
+				element.classList.remove("visible");
+			}
+		</script>
+
+	</body>
+</html>

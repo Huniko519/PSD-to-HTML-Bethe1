@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+    
+		<!--====== Title ======-->
+		<title>BeThe1 | Attachments</title>
+		
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<!--====== Favicon Icon ======-->
+		<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">	
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="index.html" class="logo"><img src="assets/images/company-logo.png" class="company-logo"></a>
+				<nav id="nav">
+					<a href="joboffer.html">Job offer</a>
+					<a href="about.html">About</a>
+					<a href="contact.html">Contact</a>
+					<a href="myspace.html">My Space</a>
+					<a href="fr.html">FR</a>
+					<a href="en.html" style="text-decoration: underline">EN</a>
+				</nav>
+				<a href="#navPanel" class="navPanelToggle"><span class="menu-button" onclick="tooglemenu()"></span></a>
+			</div>
+		</header>
+
+		<!-- Banner -->
+		<section id="banner">
+		</section>
+
+		<!-- wrapper -->
+		<section id="one" class="wrapper">
+			<div class="inner">
+				<div class="title-contact">Attachments</div>
+				<div class="hr-div"></div>
+				<span class="title-span">Copy your resume into the blank spacs below and upload your original resume as well as your work samples or books if applicable in "My work/ books"</span><br>
+				<div class="hr-div"></div>
+				<span class="content-span"><div class="circle-icon"></div> This is an important complement to your profile bt cannot replace the other steps</span>
+				<div class="hr-div"></div>
+				<span class="content-span"><div class="circle-icon"></div> When you will apply for a job offer, this information will be viewd by the employer and will be necessary to go to the next steps in the recruitment process</span>
+				<div class="hr-div"></div>
+				<span class="content-span"><div class="circle-icon"></div> Upload also your resume in its original format in " My work samples / books "</span>
+				<div class="hr-div"></div>
+				<span class="content-span"> Formats acceptes: .gif, .jpeg, .bmp, .rtf, .doc, .xls, .ppt, .pdf, .html, .swf(les noms des fichiers ne doivent pas comporter d'accents, et le total des fichiers ne doit pas exceder 5 menu-button)</span>
+				<input type="text" class="mt-0 wp-60" placeholder="First Name"/>
+				<input type="text" class="mt-30 wp-60" placeholder="Action"/><br>
+				<button class="input-button-form btn-next mt-50 wpx-15">Upload</button>
+			</div>
+		</section>
+
+		<footer id="footer">
+			<div class="inner">
+				<div class="flex">
+					<div class="copyright">
+						<a href="index.html" class="logo"><img src="assets/images/company-logo.png" class="company-logo"></a>
+					</div>
+					<div class="f_links">
+						<ul class="icons">
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="connexion.html">Connexion</a></li>
+							<li><a><span class="f_copyright">Copiright / BeThe1 2020</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<div id="navPanel">
+			<hr><a href="joboffer.html"">Job offer</a>
+			<a href="about.html">About</a>
+			<a href="contact.html">Contact</a>
+			<a href="myspace.html">My Space</a>
+			<a href="fr.html">FR</a>
+			<a href="en.html" style="text-decoration: underline">EN</a>
+			<button class="close" onclick="menuhideevent()"></button><hr>
+		</div>
+		<script type="text/javascript">
+			function tooglemenu(){
+				var element = document.getElementById("navPanel");
+				element.className += "visible";
+			}
+			function menuhideevent(){
+				var element = document.getElementById("navPanel");
+				element.classList.remove("visible");
+			}
+		</script>
+
+	</body>
+</html>
